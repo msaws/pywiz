@@ -1,0 +1,32 @@
+[
+    {
+        "Name": "autocabproduction.azurecr.io",
+        "Tenant": "autocab.net",
+        "Subscription": "autocab-production-csp",
+        "ResourceGroup": "app-services"
+    },
+    {
+        "Name": "autocabalpha.azurecr.io",
+        "Tenant": "autocab.net",
+        "Subscription": "autocab-alpha-csp",
+        "ResourceGroup": "app-services"
+    },
+    {
+        "Name": "autocabstaging.azurecr.io",
+        "Tenant": "autocab.net",
+        "Subscription": "autocab-staging-csp",
+        "ResourceGroup": "app-services"
+    },
+    {
+        "Name": "docker.io",
+        "Tenant": "Global",
+        "Subscription": "docker.io",
+        "ResourceGroup": ""
+    },
+    {
+        "Name": "sandboxcontainer.azurecr.io",
+        "Tenant": "autocab.net",
+        "Subscription": "autocab-development-csp",
+        "ResourceGroup": "sean.mcchann"
+    }    
+]

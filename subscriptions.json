@@ -1,0 +1,82 @@
+[
+    {
+        "ID": "8b2da48e-f943-42a4-85c8-50fe074f660a",
+        "Name": "autocab-alpha-csp",
+        "Tenant": "autocab.net"
+    },
+    {
+        "ID": "32c5a531-c20a-4e7e-8072-1e6e46c6a02f",
+        "Name": "autocab-internal-csp",
+        "Tenant": "autocab.net"
+    },
+    {
+        "ID": "e3bf9caf-f64a-4a9f-ab1f-d29d50f7ea0a",
+        "Name": "autocab-production-csp",
+        "Tenant": "autocab.net"
+    },
+    {
+        "ID": "793fe919-4b4c-44e6-bc20-05098a3ea16d",
+        "Name": "autocab-security-csp",
+        "Tenant": "autocab.net"
+    },
+    {
+        "ID": "acbd4710-9f0f-4e0a-a347-c68f37f510b6",
+        "Name": "autocab-staging-csp",
+        "Tenant": "autocab.net"
+    },
+    {
+        "ID": "acbd4710-9f0f-4e0a-a347-c68f37f510b6",
+        "Name": "Azure subscription 1",
+        "Tenant": "autocab.net"
+    },
+    {
+        "ID": "538e4332-4600-4d3b-8273-2c767650f064",
+        "Name": "ghost-analytics",
+        "Tenant": "autocab.net"
+    },
+    {
+        "ID": "48020915-c705-4eed-8c8e-7f0c92477683",
+        "Name": "ghost-international",
+        "Tenant": "autocab.net"
+    },
+    {
+        "ID": "d4c8e1ce-69a2-4c7d-b84b-16c6d755518e",
+        "Name": "ghost-testing",
+        "Tenant": "autocab.net"
+    },
+    {
+        "ID": "cfc90a04-e79d-4d7b-b97b-b4ba6f873e3e",
+        "Name": "casper-america-01",
+        "Tenant": "autocab.dev"
+    },
+    {
+        "ID": "ae6d0909-1b6f-4957-9b34-47e9702a7933",
+        "Name": "casper-devops",
+        "Tenant": "autocab.dev"
+    },
+    {
+        "ID": "8b6e6be4-4d0e-48b3-b28f-76d7427ba460",
+        "Name": "casper-europe-01",
+        "Tenant": "autocab.dev"
+    },
+    {
+        "ID": "d52652d2-ee75-4d31-9be7-03bf65ec2100",
+        "Name": "casper-global",
+        "Tenant": "autocab.dev"
+    },
+    {
+        "ID": "e5cfdfd0-272f-4ab0-8d47-2f9e5874735d",
+        "Name": "casper-middleeast-01",
+        "Tenant": "autocab.dev"
+    },
+    {
+        "ID": "7e7846be-6cfd-4f83-8c51-7b8f52dba826",
+        "Name": "casper-uk-01",
+        "Tenant": "autocab.dev"
+    },
+    {
+        "ID": "651d4e0a-7f3f-4457-878a-e9bcf06ea2b0",
+        "Name": "casper-uk-02",
+        "Tenant": "autocab.dev"
+    }
+]

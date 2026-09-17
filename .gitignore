@@ -1,0 +1,5 @@
+# Ignore data folders
+
+input/
+output/
+logs/

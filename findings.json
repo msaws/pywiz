@@ -1,0 +1,1010 @@
+{
+  "Teams": {
+    "Infrastructure": "infrastructure@autocab.com",
+    "Frontend": "adrian.dyson@autocab.com;infrastructure@autocab.com"
+  },
+  "Findings": {
+    "autocab.net": {
+      "autocab-staging-csp": {
+        "app-driverrecruitment": {
+          "SERVERLESS_autocab-staging-driverrecruitment": {
+            "Team": "Frontend"
+          }
+        },
+        "app-services": {
+          "CONTAINER_IMAGE_autocabstaging.azurecr.io/autocab/osrm-backend/great-britain/passenger:latest": {
+            "Team": "Infrastructure"
+          },
+          "CONTAINER_IMAGE_autocabstaging.azurecr.io/autocab/osrm-backend/great-britain/quickest:latest": {
+            "Team": "Infrastructure"
+          },
+          "CONTAINER_IMAGE_autocabstaging.azurecr.io/autocab/osrm-backend/great-britain/shortest:latest": {
+            "Team": "Infrastructure"
+          },
+          "CONTAINER_IMAGE_autocabstaging.azurecr.io/igo-api:2cdc8c9": {
+            "Team": ""
+          },
+          "CONTAINER_IMAGE_autocabstaging.azurecr.io/taxi-tracker:latest": {
+            "Team": ""
+          },
+          "CONTAINER_IMAGE_autocabstaging.azurecr.io/igo-portal-frontend:latest": {
+            "Team": ""
+          },
+          "CONTAINER_IMAGE_autocabstaging.azurecr.io/ghost-app-store:c65d160": {
+            "Team": ""
+          },
+          "CONTAINER_IMAGE_autocabstaging.azurecr.io/vehicle-inspections:latest": {
+            "Team": ""
+          },
+          "CONTAINER_IMAGE_autocabstaging.azurecr.io/passenger-products:latest": {
+            "Team": ""
+          },
+          "CONTAINER_IMAGE_autocabstaging.azurecr.io/fleet-management-portal:latest": {
+            "Team": ""
+          },
+          "CONTAINER_IMAGE_autocabstaging.azurecr.io/driver-recruitment:latest": {
+            "Team": ""
+          },
+          "CONTAINER_IMAGE_autocabstaging.azurecr.io/call-centre:latest": {
+            "Team": ""
+          },
+          "CONTAINER_IMAGE_autocabstaging.azurecr.io/ebooking-v3:latest": {
+            "Team": ""
+          },
+          "CONTAINER_IMAGE_autocabstaging.azurecr.io/corporate-account-portal-frontend:latest": {
+            "Team": ""
+          },
+          "CONTAINER_IMAGE_autocabstaging.azurecr.io/uber-3papi:42d29fc": {
+            "Team": ""
+          }
+        },
+        "app-autocab365": {
+          "SERVERLESS_autocab-staging-ghost365": {
+            "Team": "Autocab365"
+          },
+          "SERVERLESS_autocab-staging-autocab365-callcentre": {
+            "Team": "Autocab365"
+          },
+          "SERVERLESS_autocab-staging-autocab365-analytics": {
+            "Team": "Autocab365"
+          },
+          "SERVERLESS_autocab-staging-autocab365-portal": {
+            "Team": "Autocab365"
+          },
+          "SERVERLESS_autocab-staging-autocab365-accounts": {
+            "Team": "Autocab365"
+          }
+        },
+        "app-routing.americas": {
+          "VIRTUAL_MACHINE_host-01-vm": {
+            "Team": "Infrastructure"
+          },
+          "VIRTUAL_MACHINE_host-02-vm": {
+            "Team": "Infrastructure"
+          }
+        },
+        "app-routing.britain": {
+          "SERVERLESS_autocab-staging-routing-britain-shortest": {
+            "Team": "Infrastructure"
+          },
+          "SERVERLESS_autocab-staging-routing-britain-quickest": {
+            "Team": "Infrastructure"
+          },
+          "SERVERLESS_autocab-staging-routing-britain-passenger": {
+            "Team": "Infrastructure"
+          }
+        },
+        "app-fleet": {
+          "SERVERLESS_autocab-staging-fleet": {
+            "Team": ""
+          }
+        },
+        "app-taxitracker": {
+          "SERVERLESS_autocab-staging-taxitracker": {
+            "Team": ""
+          }
+        },
+        "app-bitbucket": {
+          "VIRTUAL_MACHINE_bitbucket-staging-vm": {
+            "Team": "Infrastructure"
+          }
+        },
+        "app-ghostappstore": {
+          "SERVERLESS_autocab-staging-ghostappstore": {
+            "Team": ""
+          }
+        },
+        "app-vehinspections": {
+          "SERVERLESS_autocab-staging-vehinspections": {
+            "Team": ""
+          }
+        },
+        "app-passengerproducts": {
+          "SERVERLESS_autocab-staging-passengerproducts": {
+            "Team": "Frontend"
+          }
+        },
+        "app-cap.frontend": {
+          "SERVERLESS_autocab-staging-cap-frontend": {
+            "Team": ""
+          }
+        },
+        "app-openmaptiles": {
+          "VIRTUAL_MACHINE_maptiles-vm": {
+            "Team": "Infrastructure"
+          }
+        },
+        "app-routing.core": {
+          "SERVERLESS_autocab-staging-routing": {
+            "Team": "Infrastructure"
+          }
+        },
+        "app-routing.oceania": {
+          "VIRTUAL_MACHINE_host-02-vm": {
+            "Team": "Infrastructure"
+          }
+        },
+        "app-igoportal-frontend": {
+          "SERVERLESS_autocab-staging-igoportal-frontend": {
+            "Team": ""
+          }
+        },
+        "app-routing.planet": {
+          "VIRTUAL_MACHINE_host-01-vm": {
+            "Team": "Infrastructure"
+          }
+        },
+        "app-routing.europe": {
+          "VIRTUAL_MACHINE_host-02-vm": {
+            "Team": "Infrastructure"
+          },
+          "VIRTUAL_MACHINE_host-01-vm": {
+            "Team": "Infrastructure"
+          }
+        },
+        "app-routing.asia": {
+          "VIRTUAL_MACHINE_host-01-vm": {
+            "Team": "Infrastructure"
+          }
+        },
+        "app-ebooking3": {
+          "SERVERLESS_autocab-staging-ebooking3": {
+            "Team": ""
+          }
+        },
+        "app-igoportal": {
+          "SERVERLESS_autocab-staging-igo-functions/HealthCheck": {
+            "Team": "iGo"
+          },
+          "SERVERLESS_autocab-staging-igo-functions/CabExchangeBookingsImportFunction": {
+            "Team": "iGo"
+          },
+          "SERVERLESS_autocab-staging-igoportal": {
+            "Team": "iGo"
+          },
+          "SERVERLESS_autocab-staging-igo-functions/IGoInvoiceEmail": {
+            "Team": "iGo"
+          },
+          "SERVERLESS_autocab-staging-igo-functions/CabExchangeBookingsFunction": {
+            "Team": "iGo"
+          },
+          "SERVERLESS_autocab-staging-igo-functions/CreditNoteEmail": {
+            "Team": "iGo"
+          },
+          "SERVERLESS_autocab-staging-igo-functions/Invoice": {
+            "Team": "iGo"
+          },
+          "SERVERLESS_autocab-staging-igo-functions/AssignOperatorBookings": {
+            "Team": "iGo"
+          },
+          "SERVERLESS_autocab-staging-igo-functions/OriginatorInvoiceEmail": {
+            "Team": "iGo"
+          },
+          "SERVERLESS_autocab-staging-igo-functions/AssignOriginatorBookings": {
+            "Team": "iGo"
+          },
+          "SERVERLESS_autocab-staging-igo-functions/TestEmulatorBookingsFunction": {
+            "Team": "iGo"
+          },
+          "SERVERLESS_autocab-staging-igo-functions/UpdateWithdrawalStatus": {
+            "Team": "iGo"
+          },
+          "SERVERLESS_autocab-staging-igo-functions/DisputeRaised": {
+            "Team": "iGo"
+          },
+          "SERVERLESS_autocab-staging-igo-functions/RegisterUser": {
+            "Team": "iGo"
+          },
+          "SERVERLESS_autocab-staging-igo-functions/RiderInvoiceEmail": {
+            "Team": "iGo"
+          },
+          "SERVERLESS_autocab-staging-igo-functions/AggregateDailyBookingMetrics": {
+            "Team": "iGo"
+          },
+          "SERVERLESS_autocab-staging-igo-functions/UploadLocalCabBookingsToGainsight": {
+            "Team": "iGo"
+          },
+          "SERVERLESS_autocab-staging-igo-functions/PasswordReset": {
+            "Team": "iGo"
+          },
+          "SERVERLESS_autocab-staging-igo-functions/ArchiveBookings": {
+            "Team": "iGo"
+          },
+          "SERVERLESS_autocab-staging-igo-functions/MigrateBookings": {
+            "Team": "iGo"
+          },
+          "SERVERLESS_autocab-staging-igo-functions/GainsightMonthlyUploads": {
+            "Team": "iGo"
+          },
+          "SERVERLESS_autocab-staging-igo-functions/MonthyCabExchangeBookingsReport": {
+            "Team": "iGo"
+          },
+          "SERVERLESS_autocab-staging-igo-functions/InvoiceTimerFunction": {
+            "Team": "iGo"
+          },
+          "SERVERLESS_autocab-staging-igo-functions/WeeklyCabExchangeBookingsReport": {
+            "Team": "iGo"
+          }
+        },
+        "app-passenger.americas": {
+          "SERVERLESS_autocab-staging-bgworker-americas": {
+            "Team": ""
+          },
+          "SERVERLESS_autocab-staging-passenger-americas": {
+            "Team": ""
+          }
+        },
+        "app-purse": {
+          "SERVERLESS_autocab-staging-purse": {
+            "Team": ""
+          }
+        },
+        "app-maps": {
+          "VIRTUAL_MACHINE_openmaptiles-vm": {
+            "Team": "Infrastructure"
+          }
+        },
+        "app-settings": {
+          "SERVERLESS_autocab-staging-appsettings": {
+            "Team": "Backend"
+          }
+        },
+        "app-reports": {
+          "SERVERLESS_autocab-staging-appreports": {
+            "Team": "Backend"
+          }
+        },
+        "app-flights": {
+          "SERVERLESS_autocab-staging-flightsvc": {
+            "Team": ""
+          }
+        },
+        "app-cabexchange": {
+          "SERVERLESS_autocab-staging-cx-server": {
+            "Team": ""
+          },
+          "SERVERLESS_autocab-staging-cx-billing": {
+            "Team": ""
+          }
+        },
+        "app-passenger.canada": {
+          "SERVERLESS_autocab-staging-profileimages-canada": {
+            "Team": ""
+          }
+        },
+        "app-passenger": {
+          "SERVERLESS_autocab-staging-passenger": {
+            "Team": "Backend"
+          }
+        },
+        "app-passenger.migrated": {
+          "SERVERLESS_sta2-autocab-taxipro-serverless/ProfileImageGet": {
+            "Team": "Backend"
+          },
+          "SERVERLESS_sta2-autocab-taxipro-serverless/ProfileImageSet": {
+            "Team": "Backend"
+          }
+        },
+        "app-zonemaker": {
+          "SERVERLESS_autocab-staging-zonemaker": {
+            "Team": ""
+          }
+        },
+        "app-lexicon": {
+          "SERVERLESS_autocab-staging-lexicon-api": {
+            "Team": "Backend"
+          }
+        },
+        "app-meterportal": {
+          "SERVERLESS_autocab-staging-meterportal-frontend": {
+            "Team": "Frontend"
+          }
+        },
+        "app-ebooking.premium": {
+          "SERVERLESS_autocab-staging-ebooking": {
+            "Team": ""
+          }
+        }
+      },
+      "autocab-internal-csp": {
+        "app-jenkins.migrated": {
+          "CONTAINER_jenkins": {
+            "Team": "Infrastructure"
+          },
+          "VIRTUAL_MACHINE_jenkins": {
+            "Team": "Infrastructure",
+            "BuildAgent": true
+          },
+          "VIRTUAL_MACHINE_jenkins-agent-linux": {
+            "Team": "Infrastructure",
+            "BuildAgent": true
+          },
+          "VIRTUAL_MACHINE_jenkins-agent-e48sv5": {
+            "Team": "Infrastructure",
+            "BuildAgent": true
+          },
+          "VIRTUAL_MACHINE_windows-slave": {
+            "Team": "Infrastructure",
+            "BuildAgent": true
+          }
+        },
+        "app-nexus.migrated": {
+          "VIRTUAL_MACHINE_nexus-oss-vm": {
+            "Team": "Backend"
+          }
+        },
+        "app-bitbucket.migrated": {
+          "VIRTUAL_MACHINE_bitbucket-vm": {
+            "Team": "Infrastructure"
+          }
+        },
+        "app-wallboard": {
+          "SERVERLESS_autocab-internal-wallboard": {
+            "Team": ""
+          }
+        }
+      },
+      "autocab-production-csp": {
+        "app-services": {
+          "CONTAINER_IMAGE_autocabproduction.azurecr.io/driver-recruitment:latest": {
+            "Team": "Frontend"
+          },
+          "CONTAINER_IMAGE_autocabproduction.azurecr.io/autocab/osrm-backend/great-britain/passenger:latest": {
+            "Team": "Infrastructure"
+          },
+          "CONTAINER_IMAGE_autocabproduction.azurecr.io/fleet-management-portal:latest": {
+            "Team": ""
+          },
+          "CONTAINER_IMAGE_autocabproduction.azurecr.io/autocab/osrm-backend/great-britain/shortest:latest": {
+            "Team": "Infrastructure"
+          },
+          "CONTAINER_IMAGE_autocabproduction.azurecr.io/corporate-account-portal-frontend:latest": {
+            "Team": ""
+          },
+          "CONTAINER_IMAGE_autocabproduction.azurecr.io/igo-portal-frontend:latest": {
+            "Team": "Frontend"
+          },
+          "CONTAINER_IMAGE_autocabproduction.azurecr.io/vehicle-inspections:latest": {
+            "Team": ""
+          },
+          "CONTAINER_IMAGE_autocabproduction.azurecr.io/igo-api:bf5a494": {
+            "Team": "Backend"
+          },
+          "CONTAINER_IMAGE_autocabproduction.azurecr.io/call-centre:latest": {
+            "Team": ""
+          },
+          "CONTAINER_IMAGE_autocabproduction.azurecr.io/passenger-products:latest": {
+            "Team": "Frontend"
+          },
+          "CONTAINER_IMAGE_autocabproduction.azurecr.io/taxi-tracker:latest": {
+            "Team": ""
+          },
+          "CONTAINER_IMAGE_autocabproduction.azurecr.io/ebooking-v3:latest": {
+            "Team": ""
+          },
+          "CONTAINER_IMAGE_autocabproduction.azurecr.io/autocab/tileserver-gl-nginx:release": {
+            "Team": "Infrastructure"
+          },
+          "CONTAINER_IMAGE_autocabproduction.azurecr.io/autocab/osrm-backend/great-britain/quickest:latest": {
+            "Team": ""
+          },
+          "CONTAINER_IMAGE_autocabproduction.azurecr.io/ghost-app-store:e6143fa": {
+            "Team": ""
+          },
+          "CONTAINER_IMAGE_autocabproduction.azurecr.io/uber-3papi:fbf546e": {
+            "Team": "3papi"
+          }
+        },
+        "app-datateam.middleeast": {
+          "VIRTUAL_MACHINE_datateam-vm": {
+            "Team": "Data"
+          }
+        },
+        "app-ebooking.legacy": {
+          "VIRTUAL_MACHINE_host-01-vm": {
+            "Team": "Infrastructure"
+          }
+        },
+        "app-datateam": {
+          "VIRTUAL_MACHINE_datateam-vm": {
+            "Team": "Data"
+          }
+        },
+        "app-data.fabric": {
+          "VIRTUAL_MACHINE_fabricgateway-vm": {
+            "Team": "Infrastructure"
+          }
+        },
+        "app-routing.planet": {
+          "VIRTUAL_MACHINE_host-01-vm": {
+            "Team": "Infrastructure"
+          },
+          "VIRTUAL_MACHINE_host-02-vm": {
+            "Team": "Infrastructure"
+          }
+        },
+        "app-datarepository.americas": {
+          "VIRTUAL_MACHINE_host-01-vm": {
+            "Team": "Infrastructure"
+          }
+        },
+        "app-data.ssis": {
+          "VIRTUAL_MACHINE_host-01-vm": {
+            "Team": "Data"
+          }
+        },
+        "app-datarepository.migrated": {
+          "VIRTUAL_MACHINE_host-01-vm": {
+            "Team": "Data"
+          }
+        },
+        "app-routing.britain": {
+          "SERVERLESS_autocab-production-routing-britain-passenger": {
+            "Team": "Infrastructure"
+          },
+          "SERVERLESS_autocab-production-routing-britain-shortest": {
+            "Team": "Infrastructure"
+          },
+          "SERVERLESS_autocab-production-routing-britain-quickest": {
+            "Team": "Infrastructure"
+          }
+        },
+        "app-autocab365": {
+          "SERVERLESS_autocab-production-autocab365-analytics": {
+            "Team": "Autocab365"
+          },
+          "SERVERLESS_autocab-production-autocab365-callcentre": {
+            "Team": "Autocab365"
+          },
+          "SERVERLESS_autocab-production-autocab365-portal": {
+            "Team": "Autocab365"
+          },
+          "SERVERLESS_autocab-production-autocab365-marketrpt": {
+            "Team": "Autocab365"
+          },
+          "SERVERLESS_autocab-production-autocab365-ghost": {
+            "Team": "Autocab365"
+          },
+          "SERVERLESS_autocab-production-autocab365-accounts": {
+            "Team": "Autocab365"
+          },
+          "SERVERLESS_autocab-production-autocab365-connect": {
+            "Team": "Autocab365"
+          },
+          "SERVERLESS_autocab-production-autocab365-jobprocessor": {
+            "Team": "Autocab365"
+          },
+          "SERVERLESS_autocab-production-autocab365-management": {
+            "Team": "Autocab365"
+          }
+        },
+        "app-vehinspections": {
+          "SERVERLESS_autocab-production-vehinspections": {
+            "Team": ""
+          }
+        },
+        "app-maps": {
+          "SERVERLESS_autocab-production-maps-beta": {
+            "Team": "Infrastructure"
+          },
+          "SERVERLESS_autocab-production-maps": {
+            "Team": "Infrastructure"
+          }
+        },
+        "app-cap.frontend": {
+          "SERVERLESS_autocab-production-cap-frontend": {
+            "Team": ""
+          }
+        },
+        "app-fleet": {
+          "SERVERLESS_autocab-production-fleet": {
+            "Team": ""
+          }
+        },
+        "app-citytaxitoronto": {
+          "VIRTUAL_MACHINE_citytaxitoronto-booking-vm": {
+            "Team": "Infrastructure"
+          }
+        },
+        "app-taxitracker": {
+          "SERVERLESS_autocab-production-taxitracker": {
+            "Team": ""
+          }
+        },
+        "app-driverrecruitment": {
+          "SERVERLESS_autocab-production-driverrecruitment": {
+            "Team": ""
+          }
+        },
+        "app-passengerproducts": {
+          "SERVERLESS_autocab-production-passengerproducts": {
+            "Team": "Frontend"
+          }
+        },
+        "app-ebooking3": {
+          "SERVERLESS_autocab-production-ebooking3": {
+            "Team": ""
+          }
+        },
+        "app-routing.core": {
+          "SERVERLESS_autocab-production-routing": {
+            "Team": "Infrastructure"
+          }
+        },
+        "app-igoportal.frontend": {
+          "SERVERLESS_autocab-production-igoportal-frontend": {
+            "Team": "Frontend"
+          }
+        },
+        "app-routing.oceania": {
+          "VIRTUAL_MACHINE_host-02-vm": {
+            "Team": "Infrastructure"
+          },
+          "VIRTUAL_MACHINE_host-01-vm": {
+            "Team": "Infrastructure"
+          }
+        },
+        "app-igoportal": {
+          "SERVERLESS_autocab-production-igoportal-functions/AssignOriginatorBookings": {
+            "Team": "iGo"
+          },
+          "SERVERLESS_autocab-production-igoportal-functions/HealthCheck": {
+            "Team": "iGo"
+          },
+          "SERVERLESS_autocab-production-igoportal-functions/PopulateNoOfDriverFromGhost": {
+            "Team": "iGo"
+          },
+          "SERVERLESS_autocab-production-igoportal-functions/RiderInvoiceEmail": {
+            "Team": "iGo"
+          },
+          "SERVERLESS_autocab-production-igoportal-functions/CreditNoteEmail": {
+            "Team": "iGo"
+          },
+          "SERVERLESS_autocab-production-igoportal-functions/RegisterUser": {
+            "Team": "iGo"
+          },
+          "SERVERLESS_autocab-production-igoportal-functions/GainsightMonthlyUploads": {
+            "Team": "iGo"
+          },
+          "SERVERLESS_autocab-production-igoportal-functions/DisputeRaised": {
+            "Team": "iGo"
+          },
+          "SERVERLESS_autocab-production-igoportal-functions/TestEmulatorBookingsFunction": {
+            "Team": "iGo"
+          },
+          "SERVERLESS_autocab-production-igoportal-functions/AssignOperatorBookings": {
+            "Team": "iGo"
+          },
+          "SERVERLESS_autocab-production-igoportal-functions/PasswordReset": {
+            "Team": "iGo"
+          },
+          "SERVERLESS_autocab-production-igoportal-functions/MigrateBookings": {
+            "Team": "iGo"
+          },
+          "SERVERLESS_autocab-production-igoportal-functions/IGoInvoiceEmail": {
+            "Team": "iGo"
+          },
+          "SERVERLESS_autocab-production-igoportal-functions/UploadLocalCabBookingsToGainsight": {
+            "Team": "iGo"
+          },
+          "SERVERLESS_autocab-production-igoportal-functions/OriginatorInvoiceEmail": {
+            "Team": "iGo"
+          },
+          "SERVERLESS_autocab-production-igoportal": {
+            "Team": "iGo"
+          },
+          "SERVERLESS_autocab-production-igoportal-functions/MonthyCabExchangeBookingsReport": {
+            "Team": "iGo"
+          },
+          "SERVERLESS_autocab-production-igoportal-functions/AggregateDailyBookingMetrics": {
+            "Team": "iGo"
+          },
+          "SERVERLESS_autocab-production-igoportal-functions/CabExchangeBookingsFunction": {
+            "Team": "iGo"
+          },
+          "SERVERLESS_autocab-production-igoportal-functions/Invoice": {
+            "Team": "iGo"
+          },
+          "SERVERLESS_autocab-production-igoportal-functions/WeeklyCabExchangeBookingsReport": {
+            "Team": "iGo"
+          },
+          "SERVERLESS_autocab-production-igoportal-functions/CabExchangeBookingsImportFunction": {
+            "Team": "iGo"
+          }
+        },
+        "app-ghostappstore": {
+          "SERVERLESS_autocab-production-ghost-appstore": {
+            "Team": ""
+          }
+        },
+        "app-cap.api": {
+          "SERVERLESS_autocab-production-cap-api": {
+            "Team": "Backend"
+          }
+        },
+        "app-passenger.americas": {
+          "SERVERLESS_autocab-production-bgworker-americas": {
+            "Team": "Backend"
+          },
+          "SERVERLESS_autocab-production-passenger-americas": {
+            "Team": "Backend"
+          },
+          "SERVERLESS_autocab-production-ebooking-americas": {
+            "Team": "Backend"
+          }
+        },
+        "app-purse": {
+          "SERVERLESS_autocab-production-purse": {
+            "Team": ""
+          }
+        },
+        "app-settings": {
+          "SERVERLESS_autocab-production-settings": {
+            "Team": "Backend"
+          }
+        },
+        "app-reports": {
+          "SERVERLESS_autocab-production-reports": {
+            "Team": "Backend"
+          }
+        },
+        "app-cdn": {
+          "SERVERLESS_autocab-production-cdn": {
+            "Team": "Infrastructure"
+          }
+        },
+        "app-flights": {
+          "SERVERLESS_autocab-production-flightsvc": {
+            "Team": ""
+          }
+        },
+        "app-cabexchange": {
+          "SERVERLESS_autocab-production-cx-billing": {
+            "Team": ""
+          },
+          "SERVERLESS_autocab-production-cx-server": {
+            "Team": ""
+          }
+        },
+        "app-passenger": {
+          "SERVERLESS_autocab-production-passenger": {
+            "Team": "Backend"
+          },
+          "SERVERLESS_autocab-production-profile-images/ProfileImageGet": {
+            "Team": "Backend"
+          },
+          "SERVERLESS_autocab-production-profile-images/ProfileImageSet": {
+            "Team": "Backend"
+          }
+        },
+        "app-meterportal": {
+          "SERVERLESS_autocab-production-meterportal-frontend": {
+            "Team": "Frontend"
+          }
+        },
+        "app-routing.americas": {
+          "VIRTUAL_MACHINE_host-02-vm": {
+            "Team": "Infrastructure"
+          },
+          "VIRTUAL_MACHINE_host-01-vm": {
+            "Team": "Infrastructure"
+          }
+        },
+        "app-routing.asia": {
+          "VIRTUAL_MACHINE_host-02-vm": {
+            "Team": "Infrastructure"
+          }
+        },
+        "app-zonemaker": {
+          "SERVERLESS_autocab-production-zonemaker": {
+            "Team": ""
+          }
+        },
+        "app-ebooking.premium": {
+          "SERVERLESS_premium-ebooking": {
+            "Team": ""
+          }
+        },
+        "app-hotelbooker": {
+          "SERVERLESS_autocab-production-hotelbooker": {
+            "Team": ""
+          }
+        },
+        "app-lexicon": {
+          "SERVERLESS_autocab-production-lexicon-api": {
+            "Team": "Backend"
+          }
+        }
+      },
+      "autocab-development-csp": {
+        "sean.mcchann": {
+          "CONTAINER_IMAGE_sandboxcontainer.azurecr.io/treadler:20230706130039": {
+            "Team": "Developer"
+          }
+        },
+        "kenny.fong": {
+          "SERVERLESS_test-autocab-app": {
+            "Team": "Developer"
+          }
+        },
+        "jon.swain": {
+          "VIRTUAL_MACHINE_load-test-js-01": {
+            "Team": "Developer"
+          },
+          "VIRTUAL_MACHINE_load-test-js-02": {
+            "Team": "Developer"
+          }
+        }
+      },
+      "autocab-alpha-csp": {
+        "app-passengerproducts": {
+          "SERVERLESS_autocab-alpha-passengerproducts": {
+            "Team": "Frontend"
+          }
+        },
+        "app-services": {
+          "CONTAINER_IMAGE_autocabalpha.azurecr.io/passenger-products:latest": {
+            "Team": "Frontend"
+          },
+          "CONTAINER_IMAGE_autocabalpha.azurecr.io/igo-portal-frontend:latest": {
+            "Team": "Frontend"
+          },
+          "CONTAINER_IMAGE_autocabalpha.azurecr.io/corporate-account-portal-frontend:latest": {
+            "Team": "Frontend"
+          },
+          "CONTAINER_IMAGE_autocabalpha.azurecr.io/ebooking-v3:latest": {
+            "Team": ""
+          },
+          "CONTAINER_IMAGE_autocabalpha.azurecr.io/fleet-management-portal:latest": {
+            "Team": "Frontend"
+          }
+        },
+        "app-cap.frontend": {
+          "SERVERLESS_autocab-alpha-cap-frontend": {
+            "Team": "Frontend"
+          }
+        },
+        "app-fleet": {
+          "SERVERLESS_autocab-alpha-fleet": {
+            "Team": ""
+          }
+        },
+        "app-igoportal-frontend": {
+          "SERVERLESS_autocab-alpha-igoportal-frontend": {
+            "Team": "Frontend"
+          }
+        },
+        "app-ebooking3": {
+          "SERVERLESS_autocab-alpha-ebooking3": {
+            "Team": ""
+          }
+        },
+        "app-passenger.americas": {
+          "SERVERLESS_autocab-alpha-bgworker-americas": {
+            "Team": "Backend"
+          }
+        },
+        "app-autocab365": {
+          "SERVERLESS_autocab-alpha-autocab365-ghost": {
+            "Team": "Autocab365"
+          },
+          "SERVERLESS_autocab-alpha-autocab365-portal": {
+            "Team": "Autocab365"
+          },
+          "SERVERLESS_autocab-alpha-autocab365-management": {
+            "Team": "Autocab365"
+          },
+          "SERVERLESS_autocab-alpha-autocab365-accounts": {
+            "Team": "Autocab365"
+          }
+        },
+        "app-settings": {
+          "SERVERLESS_autocab-alpha-appsettings": {
+            "Team": "Backend"
+          }
+        },
+        "app-igoportal": {
+          "SERVERLESS_autocab-alpha-igoportal-functions/InvoiceTimerFunction": {
+            "Team": "iGo"
+          },
+          "SERVERLESS_autocab-alpha-igoportal-functions/UploadLocalCabBookingsToGainsight": {
+            "Team": "iGo"
+          },
+          "SERVERLESS_autocab-alpha-igoportal-functions/UpdateWithdrawalStatus": {
+            "Team": "iGo"
+          },
+          "SERVERLESS_autocab-alpha-igoportal-functions/AggregateDailyBookingMetrics": {
+            "Team": "iGo"
+          },
+          "SERVERLESS_autocab-alpha-igoportal-functions/AssignOperatorBookings": {
+            "Team": "iGo"
+          },
+          "SERVERLESS_autocab-alpha-igoportal-functions/PasswordReset": {
+            "Team": "iGo"
+          },
+          "SERVERLESS_autocab-alpha-igoportal-functions/IGoInvoiceEmail": {
+            "Team": "iGo"
+          },
+          "SERVERLESS_autocab-alpha-igoportal-functions/RiderInvoiceEmail": {
+            "Team": "iGo"
+          },
+          "SERVERLESS_autocab-alpha-igoportal-functions/TestEmulatorBookingsFunction": {
+            "Team": "iGo"
+          },
+          "SERVERLESS_autocab-alpha-igoportal-functions/CabExchangeBookingsFunction": {
+            "Team": "iGo"
+          },
+          "SERVERLESS_autocab-alpha-igoportal-functions/GainsightMonthlyUploads": {
+            "Team": "iGo"
+          },
+          "SERVERLESS_autocab-alpha-igoportal-functions/OriginatorInvoiceEmail": {
+            "Team": "iGo"
+          },
+          "SERVERLESS_autocab-alpha-igoportal-functions/DisputeRaised": {
+            "Team": "iGo"
+          },
+          "SERVERLESS_autocab-alpha-igoportal-functions/MigrateBookings": {
+            "Team": "iGo"
+          },
+          "SERVERLESS_autocab-alpha-igoportal-functions/Invoice": {
+            "Team": "iGo"
+          },
+          "SERVERLESS_autocab-alpha-igoportal-functions/HealthCheck": {
+            "Team": "iGo"
+          },
+          "SERVERLESS_autocab-alpha-igoportal": {
+            "Team": "iGo"
+          },
+          "SERVERLESS_autocab-alpha-igoportal-functions/CreditNoteEmail": {
+            "Team": "iGo"
+          },
+          "SERVERLESS_autocab-alpha-igoportal-functions/RegisterUser": {
+            "Team": "iGo"
+          },
+          "SERVERLESS_autocab-alpha-igoportal-functions/CabExchangeBookingsImportFunction": {
+            "Team": "iGo"
+          },
+          "SERVERLESS_autocab-alpha-igoportal-functions/AssignOriginatorBookings": {
+            "Team": "iGo"
+          },
+          "SERVERLESS_autocab-alpha-igoportal-functions/WeeklyCabExchangeBookingsReport": {
+            "Team": "iGo"
+          },
+          "SERVERLESS_autocab-alpha-igoportal-functions/MonthyCabExchangeBookingsReport": {
+            "Team": "iGo"
+          }
+        },
+        "app-passenger": {
+          "SERVERLESS_autocab-alpha-passenger": {
+            "Team": "Backend"
+          }
+        },
+        "app-zonemaker": {
+          "SERVERLESS_autocab-alpha-zonemaker": {
+            "Team": ""
+          }
+        },
+        "app-ebooking.premium": {
+          "SERVERLESS_autocab-alpha-ebooking": {
+            "Team": ""
+          }
+        }
+      },
+      "ghost-international": {
+        "standard-cluster-intl-centralus-01": {
+          "VIRTUAL_MACHINE_Ghost1771VirtualMachine": {
+            "Team": "Infrastructure"
+          }
+        },
+        "standard-cluster-intl-eastus2-01": {
+          "VIRTUAL_MACHINE_Ghost1771VirtualMachine": {
+            "Team": "Infrastructure"
+          }
+        }
+      },
+      "ghost-testing": {
+        "server-00101": {
+          "VIRTUAL_MACHINE_host-vm": {
+            "Team": "Developer"
+          }
+        },
+        "server-00099": {
+          "VIRTUAL_MACHINE_host-01-vm": {
+            "Team": "Developer"
+          }
+        },
+        "server-00016": {
+          "VIRTUAL_MACHINE_host-vm": {
+            "Team": "Developer"
+          }
+        },
+        "server-00094": {
+          "VIRTUAL_MACHINE_host-vm": {
+            "Team": "Developer"
+          }
+        },
+        "server-00096": {
+          "VIRTUAL_MACHINE_host-vm": {
+            "Team": "Developer"
+          }
+        },
+        "server-00093": {
+          "VIRTUAL_MACHINE_host-vm": {
+            "Team": "Developer"
+          }
+        },
+        "server-00013": {
+          "VIRTUAL_MACHINE_host-vm": {
+            "Team": "Developer"
+          }
+        },
+        "server-00011": {
+          "VIRTUAL_MACHINE_host-vm": {
+            "Team": "Developer"
+          }
+        },
+        "server-00030": {
+          "VIRTUAL_MACHINE_host-vm": {
+            "Team": "Developer"
+          }
+        },
+        "server-00024": {
+          "VIRTUAL_MACHINE_host-vm": {
+            "Team": "Developer"
+          }
+        },
+        "server-00022": {
+          "VIRTUAL_MACHINE_host-vm": {
+            "Team": "Developer"
+          }
+        },
+        "server-00090": {
+          "VIRTUAL_MACHINE_host-vm": {
+            "Team": "Developer"
+          }
+        }
+      }
+    },
+    "Global": {
+      "docker.io": {}
+    }
+  },
+  "BuildItems": [
+    {
+      "Item": "/opt/jenkins/workspace/Ebooking V3",
+      "Owner": "Frontend"
+    },
+    {
+      "Item": "/opt/jenkins/workspace/Passenger Products",
+      "Owner": "Frontend"
+    },
+    {
+      "Item": "/home/jenkins/.nvm/versions/node/",
+      "Owner": "Frontend"
+    },
+    {
+      "Item": "/opt/jenkins/workspace/Corporate Accounts Portal",
+      "Owner": "Frontend"
+    }
+  ]
+}
