@@ -3,11 +3,11 @@ name: Test Runner
 on:
   push:
     branches:
-      - mian
+      - main
 
-  jobs:
-    test:
-      runs-on: self-hosted
+jobs:
+  test:
+    runs-on: self-hosted
 
     steps:
       - name: Checkout Code
@@ -15,7 +15,7 @@ on:
 
       - name: Show System Information
         run: |
-          echo "Running on: "
+          echo "Running on:"
           hostname
           whoami
           pwd
